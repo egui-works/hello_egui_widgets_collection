@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head>
+    <title>Egui DnD Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        html, body, #canvas {
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
+
+<link rel="preload" href="/hello_egui/fancy-example-f77aaa9847b4cf92_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
+<link rel="modulepreload" href="/hello_egui/fancy-example-f77aaa9847b4cf92.js"></head>
+<body>
+<canvas id="canvas"></canvas>
+
+
+<script type="module">import init from '/hello_egui/fancy-example-f77aaa9847b4cf92.js';init('/hello_egui/fancy-example-f77aaa9847b4cf92_bg.wasm');</script></body></html>
